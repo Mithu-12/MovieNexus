@@ -8,10 +8,12 @@ import './Explore.scss';
 import { fetchDataFromApi } from '../../utils/api';
 
 
-import Spinner from '../../components/spinner/Spinner';
+
 import useFatch from '../../hooks/useFatch';
 import ContentWrapper from '../../Components/contentWrapper/ContentWrapper';
-import MovieCard from '../../components/movieCard/MovieCard';
+import MovieCard from '../../Components/movieCard/MovieCard';
+import Spinner from '../../Components/spinner/Spinner';
+
 
 let filters = {};
 

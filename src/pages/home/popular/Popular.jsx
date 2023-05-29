@@ -4,7 +4,7 @@ import '../Home.scss'
 import SwichTabs from '../../../Components/swichTabs/SwichTabs';
 import useFatch from '../../../hooks/useFatch';
 import Carousel from '../../../Components/carousel/Carousel';
-import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
+import ContentWrapper from '../../../Components/contentWrapper/ContentWrapper';
 const Popular = () => {
   const [endPoint, setEndPoint] = useState('movie')
 

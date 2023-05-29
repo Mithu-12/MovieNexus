@@ -1,6 +1,6 @@
 import React from "react";
 import useFatch from "../../../hooks/useFatch";
-import Carousel from "../../../components/carousel/Carousel";
+import Carousel from "../../../Components/carousel/Carousel";
 
 
 const Recommendation = ({ mediaType, id }) => {

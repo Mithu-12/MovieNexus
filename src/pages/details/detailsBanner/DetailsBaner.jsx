@@ -5,10 +5,10 @@ import dayjs, { Dayjs } from 'dayjs';
 
 import './style.scss';
 
-import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
+import ContentWrapper from '../../../Components/contentWrapper/ContentWrapper';
 
-import Genres from '../../../components/genres/Genres';
-import CircleRating from '../../../components/circleRating/CircleRating';
+import Genres from '../../../Components/genres/Genres';
+import CircleRating from '../../../Components/circleRating/CircleRating';
 import PosterFallback from '../../../assets/no-poster.png';
 import useFatch from '../../../hooks/useFatch';
 import Img from '../../../Components/lazyLoadImg/Img';
