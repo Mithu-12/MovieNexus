@@ -7,10 +7,11 @@ import './Explore.scss';
 
 import { fetchDataFromApi } from '../../utils/api';
 
-import MovieCard from '../../components/movieCard/MovieCard';
+
 import Spinner from '../../components/spinner/Spinner';
 import useFatch from '../../hooks/useFatch';
 import ContentWrapper from '../../Components/contentWrapper/ContentWrapper';
+import MovieCard from '../../components/movieCard/MovieCard';
 
 let filters = {};
 
